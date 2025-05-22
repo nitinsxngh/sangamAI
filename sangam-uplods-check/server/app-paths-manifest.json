@@ -1,0 +1,8 @@
+{
+  "/api/save-config/route": "app/api/save-config/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/save-sitemap/route": "app/api/save-sitemap/route.js",
+  "/(marketing)/page": "app/(marketing)/page.js",
+  "/(marketing)/studio/page": "app/(marketing)/studio/page.js",
+  "/(marketing)/feeder/page": "app/(marketing)/feeder/page.js"
+}
