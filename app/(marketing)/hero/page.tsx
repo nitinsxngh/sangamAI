@@ -133,19 +133,18 @@ function HeroPage() {
         </div>
 
         {/* Hero Image Section */}
-        <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[1000px] overflow-hidden md:overflow-auto lg:overflow-auto">
-          <img
-            src="/screenshot-main.png"
-            alt="Hero Image Dark"
-            className="hidden lg:max-w-[1000px] rounded-[inherit] border object-contain shadow-lg dark:block overflow-hidden md:overflow-auto lg:overflow-auto"
-          />
-          <img
-            src="/screenshot-main.png"
-            alt="Hero Image Light"
-            className="block lg:max-w-[1000px] rounded-[inherit] border object-contain shadow-lg dark:hidden overflow-hidden md:overflow-auto lg:overflow-auto"
-          />
-          <BorderBeam size={250} />
-        </div>
+        <div className="relative rounded-xl mx-auto justify-center flex flex-col items-center lg:max-w-[1000px] overflow-hidden">
+  <video
+    className="w-full rounded-[inherit] border object-contain shadow-lg"
+    src="/sangamAI-fast.mp4" // replace with your actual path
+    autoPlay
+    muted
+    loop
+    playsInline
+  />
+  <BorderBeam size={250} />
+</div>
+
       </section>
 
       {/* Company Logos */}
