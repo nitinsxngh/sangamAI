@@ -49,7 +49,7 @@ export default function PricingPage() {
         "Good Theme Choices",
         "Simple Features",
         "Manual Data Load",
-        "Up to 10,000 Messages",
+        "Up to 1,000 Messages",
         "Basic Support",
       ],
     },
@@ -62,7 +62,7 @@ export default function PricingPage() {
         "Good Theme Choices",
         "Simple Features",
         "Auto Data Load",
-        "Up to 30,000 Messages",
+        "Up to 5,000 Messages",
         "Basic Custom Flow Integration",
         "Removed Branding",
         "Basic Support",
@@ -77,7 +77,7 @@ export default function PricingPage() {
         "Good Theme Choices",
         "Simple Features",
         "Auto Data Load",
-        "Up to 60,000 Messages",
+        "Up to 10,000 Messages",
         "Custom Flow Integration",
         "Dedicated Support",
         "Removed Branding",
@@ -165,7 +165,7 @@ export default function PricingPage() {
       </div>
 
       <div className="mx-auto max-w-[58rem] text-center text-muted-foreground text-sm mt-4">
-        Taxonomy is a demo app. <strong>You can test the upgrade and won&apos;t be charged.</strong>
+        SangamAI gives free demo. <strong>You can test it first and won&apos;t be charged.</strong>
       </div>
     </section>
   );

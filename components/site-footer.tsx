@@ -21,24 +21,6 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             >
               SangamAI
             </a>
-            . Hosted on{" "}
-            <a
-              href="https://vercel.com"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Vercel
-            </a>
-            . Component Credits to {" "}
-            <a
-              href="https://twitter.com/shadcn"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              shadcn
-            </a>
             {/* . The source code is available on{" "}
             <a
               href="/#"

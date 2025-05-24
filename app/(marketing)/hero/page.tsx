@@ -149,7 +149,7 @@ function HeroPage() {
       </section>
 
       {/* Company Logos */}
-      <Companies />
+      {/*<Companies />*/}
 
       {/* Features Section */}
       <section
