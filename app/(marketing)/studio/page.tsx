@@ -126,7 +126,7 @@ export default function Studio() {
   useEffect(() => {
     if (submitted && url) {
       setIsGenerating(true)
-      fetch('http://sangamai.in/generate-sitemap', {
+      fetch('http://api.sangamai.in/generate-sitemap', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url }),
